@@ -1,0 +1,68 @@
+{
+  "learn_more": "Click to Learn More",
+  "landing": {
+    "hero": {
+      "buttons": {
+        "contact-us": "Contact Us",
+        "services": "Our Services"
+      }
+    },
+    "operations": {
+      "read-more-button": "Learn More"
+    },
+    "news": {
+      "read-more-button": "Read More"
+    },
+    "milestones": {
+      "assets": "Assets & Capital",
+      "clients": "Clients",
+      "partners": "Partners",
+      "portfolio": "Portfolio",
+      "workers": "Workers"
+    }
+  },
+  "company": {
+    "work-with-us-btn": "Work with Us",
+    "inquire_now": "Send Inquiry",
+    "contact": {
+      "phone_number_one": "Contact Phone Number",
+      "phone_number_other": "Contact Phone Numbers",
+      "email_address": "Email Address",
+      "gps_address": "Digital Address",
+      "office_location_one": "Office Location",
+      "office_location_other": "Office Locations"
+    }
+  },
+  "contact": {
+    "form": {
+      "full_name": "Full Name",
+      "full_name_placeholder": "Alberto Kwasi Gyan",
+      "email_address": "Email Address",
+      "email_address_placeholder": "Email Address (Eg. nana@email.com)",
+      "phone_number": "Phone Number",
+      "phone_number_placeholder": "Phone Number (Eg. +233550000000)",
+      "subject": "Message Subject",
+      "subject_placeholder": "Message Subject",
+      "message": "Your Message/Inquiry",
+      "message_placeholder": "Type your message here",
+      "send_message_btn": "Send My Message",
+      "success_message": "Your message has been sent successfully!",
+      "name_min": "Your name must be at least 2 characters.",
+      "email_invalid": "Enter a valid email",
+      "phone_min": "Enter a valid phone number",
+      "phone_max": "Enter a valid phone number",
+      "message_min": "Your message must be at least 2 characters.",
+      "message_max": "You have exceeded your limit of 1500 characters",
+      "subject_min": "Your subject must be at least 2 characters.",
+      "subject_max": "You have exceeded your limit of 120 characters"
+    }
+  },
+  "news": {
+    "latest": {
+      "title": "Latest News"
+    },
+    "top10": {
+      "title": "Top 10 Articles"
+    }
+  }
+}

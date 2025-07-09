@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "about": "À propos",
+    "home": "Accueil",
+    "contact": "Contact",
+    "blogs": "Blogs",
+    "companies": "Entreprises",
+    "company": {
+      "capital": {
+        "title": "Cedkam Capital",
+        "description": "Cedkam Capital est une société de capital-investissement qui investit dans les secteurs de l'énergie, des infrastructures et de la technologie."
+      },
+      "logistics": {
+        "title": "Cedkam Logistique",
+        "description": "Cedkam Logistique est une société de logistique qui fournit des services de transport et de stockage."
+      },
+      "food": {
+        "title": "Cedkam Agroalimentaire",
+        "description": "Cedkam Agroalimentaire est une entreprise qui fournit des services alimentaires."
+      },
+      "energy": {
+        "title": "Cedkam Énergie",
+        "description": "Cedkam Énergie est une entreprise qui fournit des services énergétiques."
+      }
+    }
+  },
+  "button": {
+    "contact": "Nous contacter"
+  }
+}

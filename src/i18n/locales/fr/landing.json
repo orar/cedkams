@@ -1,0 +1,68 @@
+{
+  "learn_more": "Cliquez pour en savoir plus",
+  "landing": {
+    "hero": {
+      "buttons": {
+        "contact-us": "Nous contacter",
+        "services": "Nos services"
+      }
+    },
+    "operations": {
+      "read-more-button": "En savoir plus"
+    },
+    "news": {
+      "read-more-button": "Lire la suite"
+    },
+    "milestones": {
+      "assets": "Actifs & Capital",
+      "clients": "Clients",
+      "partners": "Partenaires",
+      "portfolio": "Portefeuille",
+      "workers": "Travailleurs"
+    }
+  },
+  "company": {
+    "work-with-us-btn": "Travailler avec nous",
+    "inquire_now": "Envoyer une demande",
+    "contact": {
+      "phone_number_one": "Numéro de téléphone",
+      "phone_number_other": "Numéros de téléphone",
+      "email_address": "Adresse e-mail",
+      "gps_address": "Adresse numérique",
+      "office_location_one": "Emplacement du bureau",
+      "office_location_other": "Emplacements des bureaux"
+    }
+  },
+  "contact": {
+    "form": {
+      "full_name": "Nom complet",
+      "full_name_placeholder": "Alberto Kwasi Gyan",
+      "email_address": "Adresse e-mail",
+      "email_address_placeholder": "Adresse e-mail (ex. nana@email.com)",
+      "phone_number": "Numéro de téléphone",
+      "phone_number_placeholder": "Numéro de téléphone (ex. +233550000000)",
+      "subject": "Sujet du message",
+      "subject_placeholder": "Sujet du message",
+      "message": "Votre message/demande",
+      "message_placeholder": "Écrivez votre message ici",
+      "send_message_btn": "Envoyer mon message",
+      "success_message": "Votre message a été envoyé avec succès!",
+      "name_min": "Votre nom doit comporter au moins 2 caractères.",
+      "email_invalid": "Veuillez entrer une adresse e-mail valide",
+      "phone_min": "Veuillez entrer un numéro de téléphone valide",
+      "phone_max": "Veuillez entrer un numéro de téléphone valide",
+      "message_min": "Votre message doit comporter au moins 2 caractères.",
+      "message_max": "Vous avez dépassé la limite de 1500 caractères",
+      "subject_min": "Le sujet doit comporter au moins 2 caractères.",
+      "subject_max": "Vous avez dépassé la limite de 120 caractères"
+    }
+  },
+  "news": {
+    "latest": {
+      "title": "Dernières nouvelles"
+    },
+    "top10": {
+      "title": "Top 10 des articles"
+    }
+  }
+}

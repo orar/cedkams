@@ -1,0 +1,23 @@
+{
+  "footer": {
+    "foreword": "Les actualités et articles ci-dessous offrent un aperçu des derniers projets, innovations produits et actions RSE.",
+    "copyright": "Copyright 2025, Cedkam Ltd",
+    "company": {
+      "title": "Entreprise",
+      "logistics": "Logistique",
+      "food": "Agroalimentaire",
+      "energy": "Énergie",
+      "capital": "Capital"
+    },
+    "pages": {
+      "title": "Liens rapides",
+      "home": "Accueil",
+      "about": "À propos",
+      "contact": "Contact",
+      "news": "Actualités & Articles"
+    },
+    "articles": {
+      "title": "articles récents"
+    }
+  }
+}

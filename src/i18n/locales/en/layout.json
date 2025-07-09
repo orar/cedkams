@@ -1,0 +1,23 @@
+{
+  "footer": {
+    "foreword": "The news and articles below provide snapshots into latest projects, product innovations, CSR efforts",
+    "copyright": "Copyright 2025, Cedkam Ltd",
+    "company": {
+      "title": "Company",
+      "logistics": "Logistics",
+      "food": "Food",
+      "energy": "Energy",
+      "capital": "Capital"
+    },
+    "pages": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact Us",
+      "news": "News & Articles"
+    },
+    "articles": {
+      "title": "recent articles"
+    }
+  }
+}
