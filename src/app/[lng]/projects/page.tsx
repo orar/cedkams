@@ -1,4 +1,5 @@
 import React from 'react';
+import { ProjectHero, ProjectStatement, ProjectList } from '@/sections/projects/projects';
 
 const Page = () => {
   return (
@@ -12,26 +13,3 @@ const Page = () => {
 
 export default Page;
 
-export function ProjectHero() {
-  return (
-    <section>
-
-    </section>
-  )
-}
-
-export function ProjectStatement() {
-  return (
-    <section>
-
-    </section>
-  )
-}
-
-export function ProjectList() {
-  return (
-    <section>
-
-    </section>
-  )
-}

@@ -1,15 +1,15 @@
 import React from "react";
-import {CompanyPageSettings} from "@/types/sitesettings";
+import {CompanyPageSettingsType, PartnerLogo} from "@/types/sitesettings";
 import {Tr} from "@/types";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import Image from "next/image";
 
-export function CompanyMilestones  ({ t, config }: { t: Tr, config: CompanyPageSettings['milestones']}) {
+export function CompanyMilestones  ({ t, config }: { t: Tr, config: CompanyPageSettingsType['milestones']}) {
   return (
     <section>
       <MaxWidthWrapper>
         <div>
-          {config.milestones__partners.map(partner => (
+          {config.milestones__partner_logos.map((partner: PartnerLogo) => (
             <div className="">
               <Image
                 src={partner.logo_url}
@@ -18,9 +18,9 @@ export function CompanyMilestones  ({ t, config }: { t: Tr, config: CompanyPageS
                 height={0}
                 style={{ height: 100, width: 'auto'}}
               />
-            </div>
-          ))}
-        </div>
+              </div>
+            ))}
+          </div>
       </MaxWidthWrapper>
     </section>
   )

@@ -63,6 +63,7 @@
     },
     "top10": {
       "title": "Top 10 Articles"
-    }
+    },
+    "no_articles_found": "No articles found"
   }
 }

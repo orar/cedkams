@@ -61,7 +61,7 @@ export interface CompanyPageSettingsType {
     contact__info_socials: SocialMediaProfile[]
   },
   milestones: {
-    milestones__partner_logos: PartnerLogo
+    milestones__partner_logos: PartnerLogo[]
   },
   services: {
     services__services_title: string,

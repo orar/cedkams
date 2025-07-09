@@ -17,21 +17,26 @@ export function splitAsGroups<T = any>(data: { [key: string]: any }): T|Partial<
     return {}
   }
 
-  let keys = Object.keys(data)
+  try {
+      let keys = Object.keys(data)
 
-  return keys.reduce((acc, key) => {
-    const [_1 , _2] = key.split("__")
-    if (!_2) {
-      acc[key] = data[key];
+    return keys.reduce((acc, key) => {
+      const [_1 , _2] = key.split("__")
+      if (!_2) {
+        acc[key] = data[key];
+        return acc
+      }
+
+      if (!acc[_1]) {
+        acc[_1] = {};
+      }
+
+      acc[_1][key] = data[key]
+
       return acc
-    }
-
-    if (!acc[_1]) {
-      acc[_1] = {};
-    }
-
-    acc[_1][key] = data[key]
-
-    return acc
-  }, {} as {[key: string]: { [key: string]: any }}) as T;
+    }, {} as {[key: string]: { [key: string]: any }}) as T;
+  } catch (error) {
+    console.error(error)
+    return {}
+  }
 }

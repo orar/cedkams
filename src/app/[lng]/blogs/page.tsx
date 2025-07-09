@@ -15,6 +15,10 @@ export default async function Page ({params}: BaseServerProps){
   const { t } = await useTranslation(lng, 'landing')
   const cfg = splitAsGroups(await getBlogArticles(lng))
 
+  if (!cfg.latest) {
+    return <div>{t("no_articles_found")}</div>
+  }
+
   return (
     <>
       <LatestArticle article={cfg.latest as HomeNewsArticle} />
